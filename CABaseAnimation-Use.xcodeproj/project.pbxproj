@@ -8,13 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		D464FEE81D22836600D03490 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FEE71D22836600D03490 /* main.m */; };
-		D464FEEB1D22836600D03490 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FEEA1D22836600D03490 /* AppDelegate.m */; };
-		D464FEEE1D22836600D03490 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FEED1D22836600D03490 /* ViewController.m */; };
 		D464FEF11D22836600D03490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D464FEEF1D22836600D03490 /* Main.storyboard */; };
 		D464FEF31D22836600D03490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D464FEF21D22836600D03490 /* Assets.xcassets */; };
 		D464FEF61D22836600D03490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D464FEF41D22836600D03490 /* LaunchScreen.storyboard */; };
 		D464FF011D22836600D03490 /* CABaseAnimation_UseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF001D22836600D03490 /* CABaseAnimation_UseTests.m */; };
 		D464FF0C1D22836600D03490 /* CABaseAnimation_UseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF0B1D22836600D03490 /* CABaseAnimation_UseUITests.m */; };
+		D464FF1B1D2283EB00D03490 /* CABaseAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF1A1D2283EB00D03490 /* CABaseAnimationController.m */; };
+		D464FF271D22852400D03490 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF1F1D22852400D03490 /* ALView+PureLayout.m */; };
+		D464FF281D22852400D03490 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF211D22852400D03490 /* NSArray+PureLayout.m */; };
+		D464FF291D22852400D03490 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF231D22852400D03490 /* NSLayoutConstraint+PureLayout.m */; };
+		D464FF2C1D22869800D03490 /* CABaseAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF2B1D22869800D03490 /* CABaseAnimationCell.m */; };
+		D464FF361D22885000D03490 /* MainAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF351D22885000D03490 /* MainAnimationController.m */; };
+		D464FF491D22893800D03490 /* EnnProduceRightTop.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF401D22893800D03490 /* EnnProduceRightTop.m */; };
+		D464FF4A1D22893800D03490 /* EnnProductNewLeftBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF421D22893800D03490 /* EnnProductNewLeftBottom.m */; };
+		D464FF4B1D22893800D03490 /* EnnProductNewLeftTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF441D22893800D03490 /* EnnProductNewLeftTopView.m */; };
+		D464FF4C1D22893800D03490 /* EnnProductNewPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF461D22893800D03490 /* EnnProductNewPointView.m */; };
+		D464FF4D1D22893800D03490 /* EnnproductNewRightBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF481D22893800D03490 /* EnnproductNewRightBottom.m */; };
+		D464FF531D2289AC00D03490 /* AnimationLineTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF501D2289AC00D03490 /* AnimationLineTool.m */; };
+		D464FF541D2289AC00D03490 /* AnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D464FF521D2289AC00D03490 /* AnimationTool.m */; };
+		D4E8361D1D2396E700211279 /* circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E836061D2396E700211279 /* circle@2x.png */; };
+		D4E8361E1D2396E700211279 /* circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E836071D2396E700211279 /* circle@3x.png */; };
+		D4E8361F1D2396E700211279 /* icon_cret_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E836081D2396E700211279 /* icon_cret_star@2x.png */; };
+		D4E836201D2396E700211279 /* icon_cret_star@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E836091D2396E700211279 /* icon_cret_star@3x.png */; };
+		D4E836211D2396E700211279 /* icon_cret_star_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E8360A1D2396E700211279 /* icon_cret_star_dark@2x.png */; };
+		D4E836221D2396E700211279 /* icon_cret_star_dark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E8360B1D2396E700211279 /* icon_cret_star_dark@3x.png */; };
+		D4E836231D2396E700211279 /* movetab_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E8360C1D2396E700211279 /* movetab_1@2x.png */; };
+		D4E836241D2396E700211279 /* movetab_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E8360D1D2396E700211279 /* movetab_1@3x.png */; };
+		D4E836251D2396E700211279 /* movetab_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E8360E1D2396E700211279 /* movetab_2@2x.png */; };
+		D4E836261D2396E700211279 /* movetab_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E8360F1D2396E700211279 /* movetab_2@3x.png */; };
+		D4E836271D2396E700211279 /* flash1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E836111D2396E700211279 /* flash1@2x.png */; };
+		D4E836281D2396E700211279 /* flash1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E836121D2396E700211279 /* flash1@3x.png */; };
+		D4E836291D2396E700211279 /* flash2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E836131D2396E700211279 /* flash2@2x.png */; };
+		D4E8362A1D2396E700211279 /* flash2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E836141D2396E700211279 /* flash2@3x.png */; };
+		D4E8362B1D2396E700211279 /* flash3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E836151D2396E700211279 /* flash3@2x.png */; };
+		D4E8362C1D2396E700211279 /* flash3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E836161D2396E700211279 /* flash3@3x.png */; };
+		D4E8362D1D2396E700211279 /* flash4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E836171D2396E700211279 /* flash4@2x.png */; };
+		D4E8362E1D2396E700211279 /* flash4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E836181D2396E700211279 /* flash4@3x.png */; };
+		D4E8362F1D2396E700211279 /* flash5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E836191D2396E700211279 /* flash5@2x.png */; };
+		D4E836301D2396E700211279 /* flash5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E8361A1D2396E700211279 /* flash5@3x.png */; };
+		D4E836311D2396E700211279 /* flash6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E8361B1D2396E700211279 /* flash6@2x.png */; };
+		D4E836321D2396E700211279 /* flash6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E8361C1D2396E700211279 /* flash6@3x.png */; };
+		D4E836361D23A04500211279 /* TwinkAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E836351D23A04500211279 /* TwinkAnimationController.m */; };
+		D4E8363A1D23A4B100211279 /* MoveAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E836391D23A4B100211279 /* MoveAnimationController.m */; };
+		D4E8363E1D23A5D400211279 /* ScaleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E8363D1D23A5D400211279 /* ScaleAnimationController.m */; };
+		D4E836421D23A8A500211279 /* MoveAndTransfromAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E836411D23A8A500211279 /* MoveAndTransfromAnimationController.m */; };
+		D4E8364A1D23AA2E00211279 /* LineAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E836491D23AA2E00211279 /* LineAnimationController.m */; };
+		D4E8364D1D23AA4300211279 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E8364C1D23AA4300211279 /* LineView.m */; };
+		D4E836531D23AF2900211279 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E836501D23AF2900211279 /* AppDelegate.m */; };
+		D4E836541D23AF2900211279 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E836521D23AF2900211279 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +78,6 @@
 /* Begin PBXFileReference section */
 		D464FEE31D22836600D03490 /* CABaseAnimation-Use.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CABaseAnimation-Use.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D464FEE71D22836600D03490 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D464FEE91D22836600D03490 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D464FEEA1D22836600D03490 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D464FEEC1D22836600D03490 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D464FEED1D22836600D03490 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D464FEF01D22836600D03490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D464FEF21D22836600D03490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D464FEF51D22836600D03490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +88,74 @@
 		D464FF071D22836600D03490 /* CABaseAnimation-UseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CABaseAnimation-UseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D464FF0B1D22836600D03490 /* CABaseAnimation_UseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CABaseAnimation_UseUITests.m; sourceTree = "<group>"; };
 		D464FF0D1D22836600D03490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D464FF191D2283EB00D03490 /* CABaseAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABaseAnimationController.h; sourceTree = "<group>"; };
+		D464FF1A1D2283EB00D03490 /* CABaseAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABaseAnimationController.m; sourceTree = "<group>"; };
+		D464FF1C1D2284C000D03490 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D464FF1E1D22852400D03490 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		D464FF1F1D22852400D03490 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		D464FF201D22852400D03490 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		D464FF211D22852400D03490 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		D464FF221D22852400D03490 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		D464FF231D22852400D03490 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		D464FF241D22852400D03490 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		D464FF251D22852400D03490 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		D464FF261D22852400D03490 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		D464FF2A1D22869800D03490 /* CABaseAnimationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABaseAnimationCell.h; sourceTree = "<group>"; };
+		D464FF2B1D22869800D03490 /* CABaseAnimationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABaseAnimationCell.m; sourceTree = "<group>"; };
+		D464FF341D22885000D03490 /* MainAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainAnimationController.h; path = ../MainAnimationController.h; sourceTree = "<group>"; };
+		D464FF351D22885000D03490 /* MainAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainAnimationController.m; path = ../MainAnimationController.m; sourceTree = "<group>"; };
+		D464FF3F1D22893800D03490 /* EnnProduceRightTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnnProduceRightTop.h; sourceTree = "<group>"; };
+		D464FF401D22893800D03490 /* EnnProduceRightTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnnProduceRightTop.m; sourceTree = "<group>"; };
+		D464FF411D22893800D03490 /* EnnProductNewLeftBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnnProductNewLeftBottom.h; sourceTree = "<group>"; };
+		D464FF421D22893800D03490 /* EnnProductNewLeftBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnnProductNewLeftBottom.m; sourceTree = "<group>"; };
+		D464FF431D22893800D03490 /* EnnProductNewLeftTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnnProductNewLeftTopView.h; sourceTree = "<group>"; };
+		D464FF441D22893800D03490 /* EnnProductNewLeftTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnnProductNewLeftTopView.m; sourceTree = "<group>"; };
+		D464FF451D22893800D03490 /* EnnProductNewPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnnProductNewPointView.h; sourceTree = "<group>"; };
+		D464FF461D22893800D03490 /* EnnProductNewPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnnProductNewPointView.m; sourceTree = "<group>"; };
+		D464FF471D22893800D03490 /* EnnproductNewRightBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnnproductNewRightBottom.h; sourceTree = "<group>"; };
+		D464FF481D22893800D03490 /* EnnproductNewRightBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnnproductNewRightBottom.m; sourceTree = "<group>"; };
+		D464FF4F1D2289AC00D03490 /* AnimationLineTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationLineTool.h; sourceTree = "<group>"; };
+		D464FF501D2289AC00D03490 /* AnimationLineTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationLineTool.m; sourceTree = "<group>"; };
+		D464FF511D2289AC00D03490 /* AnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTool.h; sourceTree = "<group>"; };
+		D464FF521D2289AC00D03490 /* AnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTool.m; sourceTree = "<group>"; };
+		D4E836061D2396E700211279 /* circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle@2x.png"; sourceTree = "<group>"; };
+		D4E836071D2396E700211279 /* circle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle@3x.png"; sourceTree = "<group>"; };
+		D4E836081D2396E700211279 /* icon_cret_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cret_star@2x.png"; sourceTree = "<group>"; };
+		D4E836091D2396E700211279 /* icon_cret_star@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cret_star@3x.png"; sourceTree = "<group>"; };
+		D4E8360A1D2396E700211279 /* icon_cret_star_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cret_star_dark@2x.png"; sourceTree = "<group>"; };
+		D4E8360B1D2396E700211279 /* icon_cret_star_dark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cret_star_dark@3x.png"; sourceTree = "<group>"; };
+		D4E8360C1D2396E700211279 /* movetab_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movetab_1@2x.png"; sourceTree = "<group>"; };
+		D4E8360D1D2396E700211279 /* movetab_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movetab_1@3x.png"; sourceTree = "<group>"; };
+		D4E8360E1D2396E700211279 /* movetab_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movetab_2@2x.png"; sourceTree = "<group>"; };
+		D4E8360F1D2396E700211279 /* movetab_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movetab_2@3x.png"; sourceTree = "<group>"; };
+		D4E836111D2396E700211279 /* flash1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash1@2x.png"; sourceTree = "<group>"; };
+		D4E836121D2396E700211279 /* flash1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash1@3x.png"; sourceTree = "<group>"; };
+		D4E836131D2396E700211279 /* flash2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash2@2x.png"; sourceTree = "<group>"; };
+		D4E836141D2396E700211279 /* flash2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash2@3x.png"; sourceTree = "<group>"; };
+		D4E836151D2396E700211279 /* flash3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash3@2x.png"; sourceTree = "<group>"; };
+		D4E836161D2396E700211279 /* flash3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash3@3x.png"; sourceTree = "<group>"; };
+		D4E836171D2396E700211279 /* flash4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash4@2x.png"; sourceTree = "<group>"; };
+		D4E836181D2396E700211279 /* flash4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash4@3x.png"; sourceTree = "<group>"; };
+		D4E836191D2396E700211279 /* flash5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash5@2x.png"; sourceTree = "<group>"; };
+		D4E8361A1D2396E700211279 /* flash5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash5@3x.png"; sourceTree = "<group>"; };
+		D4E8361B1D2396E700211279 /* flash6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash6@2x.png"; sourceTree = "<group>"; };
+		D4E8361C1D2396E700211279 /* flash6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash6@3x.png"; sourceTree = "<group>"; };
+		D4E836341D23A04500211279 /* TwinkAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwinkAnimationController.h; sourceTree = "<group>"; };
+		D4E836351D23A04500211279 /* TwinkAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwinkAnimationController.m; sourceTree = "<group>"; };
+		D4E836381D23A4B100211279 /* MoveAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveAnimationController.h; sourceTree = "<group>"; };
+		D4E836391D23A4B100211279 /* MoveAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveAnimationController.m; sourceTree = "<group>"; };
+		D4E8363C1D23A5D400211279 /* ScaleAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleAnimationController.h; sourceTree = "<group>"; };
+		D4E8363D1D23A5D400211279 /* ScaleAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleAnimationController.m; sourceTree = "<group>"; };
+		D4E836401D23A8A500211279 /* MoveAndTransfromAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveAndTransfromAnimationController.h; sourceTree = "<group>"; };
+		D4E836411D23A8A500211279 /* MoveAndTransfromAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveAndTransfromAnimationController.m; sourceTree = "<group>"; };
+		D4E836481D23AA2E00211279 /* LineAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineAnimationController.h; sourceTree = "<group>"; };
+		D4E836491D23AA2E00211279 /* LineAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineAnimationController.m; sourceTree = "<group>"; };
+		D4E8364B1D23AA4300211279 /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		D4E8364C1D23AA4300211279 /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
+		D4E8364F1D23AF2900211279 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4E836501D23AF2900211279 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4E836511D23AF2900211279 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4E836521D23AF2900211279 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +206,21 @@
 		D464FEE51D22836600D03490 /* CABaseAnimation-Use */ = {
 			isa = PBXGroup;
 			children = (
-				D464FEE91D22836600D03490 /* AppDelegate.h */,
-				D464FEEA1D22836600D03490 /* AppDelegate.m */,
-				D464FEEC1D22836600D03490 /* ViewController.h */,
-				D464FEED1D22836600D03490 /* ViewController.m */,
+				D4E836041D2396E700211279 /* Resourse */,
+				D464FF1D1D22852400D03490 /* PureLayout */,
+				D464FF191D2283EB00D03490 /* CABaseAnimationController.h */,
+				D464FF1A1D2283EB00D03490 /* CABaseAnimationController.m */,
+				D464FF2A1D22869800D03490 /* CABaseAnimationCell.h */,
+				D464FF2B1D22869800D03490 /* CABaseAnimationCell.m */,
+				D464FF3E1D22893800D03490 /* 主动画 */,
+				D4E836331D23A01E00211279 /* 闪烁 */,
+				D4E836371D23A49D00211279 /* 移动 */,
+				D4E8363B1D23A5C000211279 /* 缩放旋转 */,
+				D4E8363F1D23A88A00211279 /* 组合动画 */,
+				D4E836471D23AA2200211279 /* 线的运动轨迹 */,
+				D464FF4E1D2289AC00D03490 /* 动画类 */,
+				D464FF1C1D2284C000D03490 /* PrefixHeader.pch */,
+				D4E8364E1D23AF2900211279 /* Other */,
 				D464FEEF1D22836600D03490 /* Main.storyboard */,
 				D464FEF21D22836600D03490 /* Assets.xcassets */,
 				D464FEF41D22836600D03490 /* LaunchScreen.storyboard */,
@@ -138,6 +254,156 @@
 				D464FF0D1D22836600D03490 /* Info.plist */,
 			);
 			path = "CABaseAnimation-UseUITests";
+			sourceTree = "<group>";
+		};
+		D464FF1D1D22852400D03490 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D464FF1E1D22852400D03490 /* ALView+PureLayout.h */,
+				D464FF1F1D22852400D03490 /* ALView+PureLayout.m */,
+				D464FF201D22852400D03490 /* NSArray+PureLayout.h */,
+				D464FF211D22852400D03490 /* NSArray+PureLayout.m */,
+				D464FF221D22852400D03490 /* NSLayoutConstraint+PureLayout.h */,
+				D464FF231D22852400D03490 /* NSLayoutConstraint+PureLayout.m */,
+				D464FF241D22852400D03490 /* PureLayout+Internal.h */,
+				D464FF251D22852400D03490 /* PureLayout.h */,
+				D464FF261D22852400D03490 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		D464FF3E1D22893800D03490 /* 主动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D464FF341D22885000D03490 /* MainAnimationController.h */,
+				D464FF351D22885000D03490 /* MainAnimationController.m */,
+				D464FF451D22893800D03490 /* EnnProductNewPointView.h */,
+				D464FF461D22893800D03490 /* EnnProductNewPointView.m */,
+				D464FF3F1D22893800D03490 /* EnnProduceRightTop.h */,
+				D464FF401D22893800D03490 /* EnnProduceRightTop.m */,
+				D464FF411D22893800D03490 /* EnnProductNewLeftBottom.h */,
+				D464FF421D22893800D03490 /* EnnProductNewLeftBottom.m */,
+				D464FF431D22893800D03490 /* EnnProductNewLeftTopView.h */,
+				D464FF441D22893800D03490 /* EnnProductNewLeftTopView.m */,
+				D464FF471D22893800D03490 /* EnnproductNewRightBottom.h */,
+				D464FF481D22893800D03490 /* EnnproductNewRightBottom.m */,
+			);
+			path = "主动画";
+			sourceTree = "<group>";
+		};
+		D464FF4E1D2289AC00D03490 /* 动画类 */ = {
+			isa = PBXGroup;
+			children = (
+				D464FF4F1D2289AC00D03490 /* AnimationLineTool.h */,
+				D464FF501D2289AC00D03490 /* AnimationLineTool.m */,
+				D464FF511D2289AC00D03490 /* AnimationTool.h */,
+				D464FF521D2289AC00D03490 /* AnimationTool.m */,
+			);
+			path = "动画类";
+			sourceTree = "<group>";
+		};
+		D4E836041D2396E700211279 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				D4E836051D2396E700211279 /* 动态_切图 */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		D4E836051D2396E700211279 /* 动态_切图 */ = {
+			isa = PBXGroup;
+			children = (
+				D4E836061D2396E700211279 /* circle@2x.png */,
+				D4E836071D2396E700211279 /* circle@3x.png */,
+				D4E836081D2396E700211279 /* icon_cret_star@2x.png */,
+				D4E836091D2396E700211279 /* icon_cret_star@3x.png */,
+				D4E8360A1D2396E700211279 /* icon_cret_star_dark@2x.png */,
+				D4E8360B1D2396E700211279 /* icon_cret_star_dark@3x.png */,
+				D4E8360C1D2396E700211279 /* movetab_1@2x.png */,
+				D4E8360D1D2396E700211279 /* movetab_1@3x.png */,
+				D4E8360E1D2396E700211279 /* movetab_2@2x.png */,
+				D4E8360F1D2396E700211279 /* movetab_2@3x.png */,
+				D4E836101D2396E700211279 /* 闪_序列 */,
+			);
+			path = "动态_切图";
+			sourceTree = "<group>";
+		};
+		D4E836101D2396E700211279 /* 闪_序列 */ = {
+			isa = PBXGroup;
+			children = (
+				D4E836111D2396E700211279 /* flash1@2x.png */,
+				D4E836121D2396E700211279 /* flash1@3x.png */,
+				D4E836131D2396E700211279 /* flash2@2x.png */,
+				D4E836141D2396E700211279 /* flash2@3x.png */,
+				D4E836151D2396E700211279 /* flash3@2x.png */,
+				D4E836161D2396E700211279 /* flash3@3x.png */,
+				D4E836171D2396E700211279 /* flash4@2x.png */,
+				D4E836181D2396E700211279 /* flash4@3x.png */,
+				D4E836191D2396E700211279 /* flash5@2x.png */,
+				D4E8361A1D2396E700211279 /* flash5@3x.png */,
+				D4E8361B1D2396E700211279 /* flash6@2x.png */,
+				D4E8361C1D2396E700211279 /* flash6@3x.png */,
+			);
+			path = "闪_序列";
+			sourceTree = "<group>";
+		};
+		D4E836331D23A01E00211279 /* 闪烁 */ = {
+			isa = PBXGroup;
+			children = (
+				D4E836341D23A04500211279 /* TwinkAnimationController.h */,
+				D4E836351D23A04500211279 /* TwinkAnimationController.m */,
+			);
+			path = "闪烁";
+			sourceTree = "<group>";
+		};
+		D4E836371D23A49D00211279 /* 移动 */ = {
+			isa = PBXGroup;
+			children = (
+				D4E836381D23A4B100211279 /* MoveAnimationController.h */,
+				D4E836391D23A4B100211279 /* MoveAnimationController.m */,
+			);
+			path = "移动";
+			sourceTree = "<group>";
+		};
+		D4E8363B1D23A5C000211279 /* 缩放旋转 */ = {
+			isa = PBXGroup;
+			children = (
+				D4E8363C1D23A5D400211279 /* ScaleAnimationController.h */,
+				D4E8363D1D23A5D400211279 /* ScaleAnimationController.m */,
+			);
+			name = "缩放旋转";
+			path = "缩放";
+			sourceTree = "<group>";
+		};
+		D4E8363F1D23A88A00211279 /* 组合动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D4E836401D23A8A500211279 /* MoveAndTransfromAnimationController.h */,
+				D4E836411D23A8A500211279 /* MoveAndTransfromAnimationController.m */,
+			);
+			path = "组合动画";
+			sourceTree = "<group>";
+		};
+		D4E836471D23AA2200211279 /* 线的运动轨迹 */ = {
+			isa = PBXGroup;
+			children = (
+				D4E836481D23AA2E00211279 /* LineAnimationController.h */,
+				D4E836491D23AA2E00211279 /* LineAnimationController.m */,
+				D4E8364B1D23AA4300211279 /* LineView.h */,
+				D4E8364C1D23AA4300211279 /* LineView.m */,
+			);
+			path = "线的运动轨迹";
+			sourceTree = "<group>";
+		};
+		D4E8364E1D23AF2900211279 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D4E8364F1D23AF2900211279 /* AppDelegate.h */,
+				D4E836501D23AF2900211279 /* AppDelegate.m */,
+				D4E836511D23AF2900211279 /* ViewController.h */,
+				D4E836521D23AF2900211279 /* ViewController.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +512,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E836281D2396E700211279 /* flash1@3x.png in Resources */,
+				D4E8362F1D2396E700211279 /* flash5@2x.png in Resources */,
+				D4E8362E1D2396E700211279 /* flash4@3x.png in Resources */,
+				D4E836251D2396E700211279 /* movetab_2@2x.png in Resources */,
+				D4E8361D1D2396E700211279 /* circle@2x.png in Resources */,
+				D4E8362A1D2396E700211279 /* flash2@3x.png in Resources */,
+				D4E836311D2396E700211279 /* flash6@2x.png in Resources */,
+				D4E836221D2396E700211279 /* icon_cret_star_dark@3x.png in Resources */,
+				D4E8362C1D2396E700211279 /* flash3@3x.png in Resources */,
+				D4E836271D2396E700211279 /* flash1@2x.png in Resources */,
+				D4E8361E1D2396E700211279 /* circle@3x.png in Resources */,
+				D4E8362D1D2396E700211279 /* flash4@2x.png in Resources */,
+				D4E836301D2396E700211279 /* flash5@3x.png in Resources */,
+				D4E836231D2396E700211279 /* movetab_1@2x.png in Resources */,
 				D464FEF61D22836600D03490 /* LaunchScreen.storyboard in Resources */,
 				D464FEF31D22836600D03490 /* Assets.xcassets in Resources */,
+				D4E836201D2396E700211279 /* icon_cret_star@3x.png in Resources */,
+				D4E8362B1D2396E700211279 /* flash3@2x.png in Resources */,
+				D4E836291D2396E700211279 /* flash2@2x.png in Resources */,
+				D4E836241D2396E700211279 /* movetab_1@3x.png in Resources */,
+				D4E836261D2396E700211279 /* movetab_2@3x.png in Resources */,
 				D464FEF11D22836600D03490 /* Main.storyboard in Resources */,
+				D4E836321D2396E700211279 /* flash6@3x.png in Resources */,
+				D4E8361F1D2396E700211279 /* icon_cret_star@2x.png in Resources */,
+				D4E836211D2396E700211279 /* icon_cret_star_dark@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +561,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D464FEEE1D22836600D03490 /* ViewController.m in Sources */,
-				D464FEEB1D22836600D03490 /* AppDelegate.m in Sources */,
+				D464FF291D22852400D03490 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				D464FF1B1D2283EB00D03490 /* CABaseAnimationController.m in Sources */,
+				D464FF491D22893800D03490 /* EnnProduceRightTop.m in Sources */,
+				D464FF4D1D22893800D03490 /* EnnproductNewRightBottom.m in Sources */,
+				D464FF4A1D22893800D03490 /* EnnProductNewLeftBottom.m in Sources */,
+				D4E836421D23A8A500211279 /* MoveAndTransfromAnimationController.m in Sources */,
+				D464FF271D22852400D03490 /* ALView+PureLayout.m in Sources */,
+				D464FF541D2289AC00D03490 /* AnimationTool.m in Sources */,
+				D4E8364D1D23AA4300211279 /* LineView.m in Sources */,
+				D4E8363E1D23A5D400211279 /* ScaleAnimationController.m in Sources */,
+				D464FF4C1D22893800D03490 /* EnnProductNewPointView.m in Sources */,
+				D464FF361D22885000D03490 /* MainAnimationController.m in Sources */,
+				D464FF281D22852400D03490 /* NSArray+PureLayout.m in Sources */,
+				D4E836361D23A04500211279 /* TwinkAnimationController.m in Sources */,
+				D4E8363A1D23A4B100211279 /* MoveAnimationController.m in Sources */,
 				D464FEE81D22836600D03490 /* main.m in Sources */,
+				D4E836541D23AF2900211279 /* ViewController.m in Sources */,
+				D464FF4B1D22893800D03490 /* EnnProductNewLeftTopView.m in Sources */,
+				D464FF2C1D22869800D03490 /* CABaseAnimationCell.m in Sources */,
+				D464FF531D2289AC00D03490 /* AnimationLineTool.m in Sources */,
+				D4E8364A1D23AA2E00211279 /* LineAnimationController.m in Sources */,
+				D4E836531D23AF2900211279 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +721,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/enniu/Desktop/CABaseAnimation-Use/CABaseAnimation-Use/PrefixHeader.pch";
 				INFOPLIST_FILE = "CABaseAnimation-Use/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gdw.CABaseAnimation-Use";
@@ -425,6 +733,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/enniu/Desktop/CABaseAnimation-Use/CABaseAnimation-Use/PrefixHeader.pch";
 				INFOPLIST_FILE = "CABaseAnimation-Use/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gdw.CABaseAnimation-Use";
@@ -499,6 +808,7 @@
 				D464FF121D22836600D03490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D464FF131D22836600D03490 /* Build configuration list for PBXNativeTarget "CABaseAnimation-UseTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +817,7 @@
 				D464FF151D22836600D03490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D464FF161D22836600D03490 /* Build configuration list for PBXNativeTarget "CABaseAnimation-UseUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +826,7 @@
 				D464FF181D22836600D03490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "CABaseAnimationController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    CABaseAnimationController *baseVC = [[CABaseAnimationController alloc]init];
+    UINavigationController *navigaVC = [[UINavigationController alloc]initWithRootViewController:baseVC];
+    self.window.rootViewController = navigaVC;
+    
     return YES;
 }
 
